@@ -3,7 +3,7 @@
 Carl Osterwisch, October 2021
 """
 
-__version__ = 1.0
+__version__ = '1.0.1'
 
 from abaqusGui import *
 from abaqusConstants import *
@@ -43,7 +43,8 @@ toolset.registerGuiMenuButton(
         object=interpolationProcedure(toolset),
         kernelInitString='import interpolateXY',
         author='Carl Osterwisch',
-        version=str(__version__),
+        version=__version__,
         applicableModules=['Visualization'],
+        helpUrl='https://github.com/costerwi/interpolateXY'
         description='Interpolate to find y values within XYPlot for x value of given coordinates'
         )
