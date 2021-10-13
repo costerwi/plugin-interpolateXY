@@ -45,6 +45,6 @@ toolset.registerGuiMenuButton(
         author='Carl Osterwisch',
         version=__version__,
         applicableModules=['Visualization'],
-        helpUrl='https://github.com/costerwi/interpolateXY'
-        description='Interpolate to find y values within XYPlot for x value of given coordinates'
+        helpUrl='https://github.com/costerwi/interpolateXY',
+        description='Interpolate to find y values within XYPlot for x value of given coordinates',
         )
